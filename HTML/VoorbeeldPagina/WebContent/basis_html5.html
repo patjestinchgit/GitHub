@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset=utf-8>
+<title>JS PF project: het Document Object Model</title>
+<style media=all>
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #333;
+}
+
+img {
+	float: right;
+}
+
+#container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 1.3em;
+	font-style: italic;
+}
+</style>
+</head>
+<body>
+	<div id=container>
+		<article>
+			<h1>Het Document Object Model</h1>
+			<h2>een leven als programmeur</h2>
+			<!-- dit is HTML commentaar onzichtbaar in het beeld-->
+			<p>
+				<img src="../img/linda.jpg" alt="Linda, een front-end programmeur"
+					title="Linda, een front-end programmeur">De meeste
+				programmeurs <em>leven</em> op koffie
+			</p>
+			<p>
+				Veel programmeurs zijn liefhebbers van <a
+					href="http://en.wikipedia.org/wiki/Science-fiction">science-fiction</a>
+			</p>
+			<p>
+				In deze zin is dit <em>heel belangrijk</em>
+			</p>
+			<meta property="fb:page_id" content="23497828950" />
+			<meta property="fb:admins"
+				content="1442858697,506432430,104276,7800037" />
+			<meta property="og:site_name" content="National Geographic" />
+			<meta property="og:title"
+				content="National Geographic - Inspiring People to Care About the Planet Since 1888" />
+			<meta property="og:description"
+				content="National Geographic provides free maps, photos, videos and daily news stories, ….">
+			<meta property="og:type" content="article" />
+			<meta property="og:url" content="http://www.nationalgeographic.com/" />
+			<meta property="og:image"
+				content="http://images.nationalgeographic.com/wpf/sites/... cb1343821768.png" />
+
+			<aside>
+				<h2>Onze programmeertalen</h2>
+				<ul>
+					<li>Javascript</li>
+					<li>PHP</li>
+					<li>ASP.Net</li>
+					<li>Java</li>
+				</ul>
+			</aside>
+		</article>
+	</div>
+	<form method="post" action="http://www.ict.teno.be/formtest.php">
+		<label for="landkeuze">Uit welk land kom je?</label> <select
+			name="landkeuze" id="landkeuze" size="4">
+			<option value="BE">Belgium</option>
+			<option value="DE">Germany</option>
+			<option value="FR">France</option>
+			<option value="SP">Spain</option>
+			<option value="UK">United Kingdom</option>
+			<option value="??">Other</option>
+		</select> <input type="submit" value="submit" />
+	</form>
+	<input id=”pincode” name=”pincode” autocomplete=off type=”password”>
+</body>
+</html>

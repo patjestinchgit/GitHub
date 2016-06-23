@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>New VDAB opleidingscentrum</title>
+</head>
+<body>
+	<!-- Start login -->
+	<form method="get" action="/search">
+		<div>
+			<label for="" class="verplicht" title="verplicht">Login:</label>
+			<input type="text" id="vnaam" name="vnaam" autofocus
+				placeholder="username" title="Username " required>
+			<input type= "password" name= "pw" id="pw" />
+			<input class="blauw " type= "submit" value= "Login" />
+			<span class="fieldval" id="val_vnaam"></span>
+		</div>
+	</form>
+	<form action= "Login.html" method="get" id="login" name= "inloggen">
+		<input class="blauw " type= "submit" value= "Login" />
+	</form>
+
+</body>
+</html>

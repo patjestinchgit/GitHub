@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>New VDAB opleidingscentrum</title>
+</head>
+<body>
+	<!-- Start login -->
+	<form method="get" action="/search">
+		<div>
+			<label for="" class="verplicht" title="verplicht">Login:</label> <input
+				type="text" id="vnaam" name="vnaam" autofocus placeholder="username"
+				title="Username " required> <input type="password" name="pw"
+				id="pw" /> <input class="blauw " type="submit" value="Login" /> <span
+				class="fieldval" id="val_vnaam"></span>
+		</div>
+	</form>
+	<!--einde login-->
+	<!--start hoofdmenu-->
+	<div id="Hoofdmenu">
+		<div class="wikkel">
+			<nav id="hoofdmenu">
+				<ul>
+					<li><a href="#">Welkom</a></li>
+					<li><a href="#">Details opleiding</a></li>
+					<li><a href="#">Handleidingen</a></li>
+					<li><a href="#">Planning</a></li>
+					<li><a href="#">Extra</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<!--einde hoofdmenu-->
+</body>
+</html>

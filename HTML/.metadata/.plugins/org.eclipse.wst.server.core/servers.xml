@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server hostname="localhost" id="HTTP Preview at localhost" name="HTTP Preview at localhost" runtime-id="HTTP Preview" server-type="org.eclipse.wst.server.preview.server" server-type-id="org.eclipse.wst.server.preview.server" start-timeout="240" stop-timeout="240" timestamp="10">
+    <list key="modules" value0="DeGazet::org.eclipse.wst.web.internal.deployables.static:DeGazet::wst.web::1.0" value1="Taak1Culinair::org.eclipse.wst.web.internal.deployables.static:Taak1Culinair::wst.web::1.0" value2="VDABWebPagina::org.eclipse.wst.web.internal.deployables.static:VDABWebPagina::wst.web::1.0" value3="Floats::org.eclipse.wst.web.internal.deployables.static:Floats::wst.web::1.0" value4="EliseModels2::org.eclipse.wst.web.internal.deployables.static:EliseModels2::wst.web::1.0" value5="VDABLayOut::org.eclipse.wst.web.internal.deployables.static:VDABLayOut::wst.web::1.0" value6="VDABWebLayout2::org.eclipse.wst.web.internal.deployables.static:VDABWebLayout2::wst.web::1.0" value7="WebontwikkelaarDeel1::org.eclipse.wst.web.internal.deployables.static:WebontwikkelaarDeel1::wst.web::1.0" value8="VoorbereidingTest::org.eclipse.wst.web.internal.deployables.static:VoorbereidingTest::wst.web::1.0" value9="VT2::org.eclipse.wst.web.internal.deployables.static:VT2::wst.web::1.0"/>
+  </server>
+</servers>

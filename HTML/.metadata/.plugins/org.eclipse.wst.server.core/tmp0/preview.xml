@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="DeGazet" name="DeGazet" path="F:/workspace/HTML/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/DeGazet" type="static"/>
+  <module context="Taak1Culinair" name="Taak1Culinair" path="F:/workspace/HTML/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/Taak1Culinair" type="static"/>
+  <module context="VDABWebPagina" name="VDABWebPagina" path="F:/workspace/HTML/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/VDABWebPagina" type="static"/>
+  <module context="Floats" name="Floats" path="F:/workspace/HTML/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/Floats" type="static"/>
+  <module name="EliseModels2" path="F:/workspace/HTML/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/EliseModels2" type="static"/>
+  <module name="VDABLayOut" path="F:/workspace/HTML/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/VDABLayOut" type="static"/>
+  <module context="VDABWebLayout2" name="VDABWebLayout2" path="F:/workspace/HTML/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/VDABWebLayout2" type="static"/>
+  <module context="WebontwikkelaarDeel1" name="WebontwikkelaarDeel1" path="F:/workspace/HTML/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/WebontwikkelaarDeel1" type="static"/>
+  <module context="VoorbereidingTest" name="VoorbereidingTest" path="F:/workspace/HTML/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/VoorbereidingTest" type="static"/>
+  <module context="VT2" name="VT2" path="F:/workspace/HTML/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/VT2" type="static"/>
+</server>

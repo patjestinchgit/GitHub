@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document voor deGazet */
+/* TYPOGRAFIE */
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 100%
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+a, a:visited {
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+}
+/* KLEURENSCHEMAS */
+body {
+	background: white;
+	color: #333;
+}
+header{
+	background: orange;
+}
+
+/**** STRUCTUUR EN LAY-OUT ****/
+/* deze oef gaat door een aantal stadia:
+1. FIXED LAY-OUT: 980px container, basis 5 kol
+*/
+
+#hoofdmenu {
+	background: #ededed;
+}
+
+#hoofdmenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#hoofdmenu ul li {
+	float: left;
+}
+
+#hoofdmenu ul li a {
+	display: block;
+	padding: 0.375em 0.5em; /*6px 8px*/
+	border-right: 1px solid #b1b1b1;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+	color: #005689;
+}
+
+#hoofdmenu ul li a:hover, #hoofdmenu ul li a:active, #hoofdmenu ul li a.actief{
+	text-decoration: none;
+	background: #D61D00;
+	color: white;
+}
+
+/* basis 1em = 16px
+4px = 0.25em
+6 = 0.375em
+8 = 0.5em
+10 = 0.625em
+12 = 0.75em
+14 = 0.875em
+18 = 1.125em
+20 = 1.25em
+22 = 1.375em
+24 = 1.5em
+32 = 2em
+100 = 6.25em;
+*/
+
+header {
+	padding-top: 0.375em; /* 6px */
+}
+
+/****GRID****/
+
+/*
+clearfix hack
+http://nicolasgallagher.com/micro-clearfix-hack/
+*/
+
+}
+/* enkel voor IE6/7 */
+.clearFix {
+	*zoom: 1;
+}
+
+/**** ARTICLE en SECTION OPMAAK ****/
+/* duidelijke grijze titel, rode bovenrand */
+.metTitel {
+	padding-top: 0;
+}
+
+/**** TOPMENU ****/
+
+/**** BORDERS ****/
+/* default kleur rood */

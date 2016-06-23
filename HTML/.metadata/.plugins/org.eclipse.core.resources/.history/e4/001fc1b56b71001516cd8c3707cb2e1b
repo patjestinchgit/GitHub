@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>New VDAB opleidingscentrum</title>
+</head>
+<body>
+	<!-- Start login -->
+	<form method="get" action="/search">
+		<div>
+			<label for="" class="verplicht" title="verplicht">Login:</label> <input
+				type="text" id="vnaam" name="vnaam" autofocus placeholder="username"
+				title="Username " required> <input type="password" name="pw"
+				id="pw" /> <input class="blauw " type="submit" value="Login" /> <span
+				class="fieldval" id="val_vnaam"></span>
+		</div>
+	</form>
+	<!--einde login-->
+	<!--start hoofdmenu-->
+	<div id="Hoofdmenu">
+		<div class="wikkel">
+			<nav id="hoofdmenu">
+				<ul>
+					<li><a href="index.welkom"> Welkom</a></li>
+					<li><a href="index.details"> Details</a></li>
+					<li><a href="index.handleidingen"> handleidginen</a></li>
+					<li><a href="index.planning"> Planning</a></li>
+					<li><a href="index.extra">Extra</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<!--einde hoofdmenu-->
+	<!-- start cursistenmenu -->
+	<p>De cursisten:</p>
+	<ul>
+		<li><a href="#">Paul van Klee</a></li>
+		<li><a href="#">Linda Lovelace</a></li>
+		<li><a href="#">Rudolf Valentino</a></li>
+		<li><a href="#">Eva Green</a></li>
+		<li><a href="#">Daniel Craig</a></li>
+		<li><a href="#">Gerhard Richter</a> (voltooid)</li>
+		<li><a href="#">Francis Bacon</a> (voltooid)</li>
+		<li><a href="#">Rene Matisse</a> (voltooid)</li>
+		<li><a href="#">Eva Longoria</a> (voltooid)</li>
+		<li><a href="#">Toyo Ito</a> (voltooid)</li>
+	</ul>
+	<!-- einde cursistenmenu -->
+</body>
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;vdab_logo.gif&apos; to &apos;img&apos;" description="Move &apos;vdab_logo.gif&apos; to &apos;img&apos;" destination="img" element1="WebContent/vdab_logo.gif" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1444920751260" updateReferences="true"/>
+</session>

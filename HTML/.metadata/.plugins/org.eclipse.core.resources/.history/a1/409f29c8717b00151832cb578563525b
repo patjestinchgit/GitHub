@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document voor deGazet */
+/* TYPOGRAFIE */
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 100%;
+	background-color:white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+h2 {
+	font-weight: normal;
+	font-familiy: Georgia;
+	font-size: 80%;
+}
+
+div.headerbrackground {
+	background: #ff8000;
+	width: 100%;
+	height: 10%;
+	margin: 0 0 auto;
+}
+
+div.grenzen {
+	margin: 0 10%;
+}
+
+/*hoofdmenu*/
+#hoofdmenu {
+	display: table;
+	width: 80%;
+	margin: 0 10% auto;
+}
+
+#hoofdmenu li {
+	display: table-cell;
+}
+
+#hoofdmenu a {
+	display: block;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	text-align: center;
+	margin: 0 -1%;
+	background: #ff8000;
+	color: white;
+	text-decoration: none;
+}
+
+#hoofdmenu ul li a:hover, #hoofdmenu ul li a:active, #hoofdmenu ul li a.actief
+	{
+	background-color: #ff0000;
+	color: white;
+}
+
+#gezochtmenu {
+	width: 80%;
+	margin: 0 7%;
+	padding: 0;
+	background-color: #ffffff;
+	color: white;
+}
+
+#gezochtmenu ul {
+	margin: 0;
+	padding: 0;
+}
+
+#gezochtmenu ul li {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#gezochtmenu ul li a {
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	font-size: small;
+	font-variant: small-caps;
+	background-color: #ff8000;
+	border-radius: 1em;
+	padding: 1% 1%;
+	margin: 1%;
+	color: white;
+}
+
+img {
+	margin-right: 1em;
+	width: 70%;
+	heigth: 70%;
+	size: auto;
+	margin-bottom:0;
+	margin-top:0;
+}
+
+.midden{
+	margin:0 0;
+	background-color: white;
+}
+
+/*linkse gedeelte*/
+.links {
+	width: 60%;
+	float: left;
+}
+
+.rechts {
+	width: 40%;
+	float: left;
+}
+
+.verwachtingenlinks{
+	width: 20%;
+	float: left;
+}
+
+.verwachtingenrechts{
+	width:70%;
+	float: left;
+	margin: 10% 10%;
+}
+
+/****aside, kolommen****/
+/****aside, kolommen****/
+aside, .kol {
+	/*float: left;*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*width: 33%;*/
+	margin-right: 0.5%;
+	padding: 5%;
+}
+
+/*.kol:last-child {
+	margin-right: 0;
+}*/
+
+.een {
+	float: left;
+	width: 25%;
+}
+
+.twee {
+	min-height: 500px;
+	size: 100% 200%;
+	margin: 0 25% 0 25%;
+	background: url("../img/drupal-8.png");
+	background-size: 100% 115%;
+	background-repeat: no-repeat;
+	
+	
+}
+
+.drie {
+	float: right;
+	width: 25%;
+	 
+	
+}
+
+div.lijn {
+	background: #c0c0c0;
+	width: 100%;
+	height: .05em;
+	
+}
+
+/*
+clearfix hack
+http://nicolasgallagher.com/micro-clearfix-hack/
+*/
+.clearFix:before, .clearFix:after {
+	content: " ";
+	display: table;
+}
+
+.clearFix:after {
+	clear: both;
+}
+/* enkel voor IE6/7 */
+.clearFix {
+	*zoom: 1;
+}

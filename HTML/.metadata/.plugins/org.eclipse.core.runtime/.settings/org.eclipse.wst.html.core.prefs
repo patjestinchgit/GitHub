@@ -1,0 +1,4 @@
+cleanupAttrNameCase=1
+cleanupTagNameCase=1
+compressEmptyElementTags=true
+eclipse.preferences.version=1

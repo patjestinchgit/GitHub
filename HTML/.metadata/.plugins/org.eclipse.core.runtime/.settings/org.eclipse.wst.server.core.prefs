@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+module-start-timeout=300000
+runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<runtimes>\r\n  <runtime id\="HTTP Preview" name\="HTTP Preview" runtime-type-id\="org.eclipse.wst.server.preview.runtime" timestamp\="0"/>\r\n  <runtime gae-sdk-name\="App Engine" gae-sdk-version\="1.9.22" id\="Google App Engine" location\="C\:/Users/patrick/Desktop/eclipse/plugins/com.google.appengine.eclipse.sdkbundle_1.9.22/appengine-java-sdk-1.9.22/" name\="Google App Engine" runtime-type-id\="com.google.appengine.runtime.id1" timestamp\="0"/>\r\n</runtimes>\r\n

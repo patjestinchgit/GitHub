@@ -1,0 +1,261 @@
+/*
+
+vdab_layout 
+startbestand
+tetsqsdf
+*/
+
+/****algemeen****/
+div {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #FFF;
+	color: #000;
+	font: small Arial, sans-serif;
+	width: 100%;
+}
+
+a img {
+	border: 0;
+}
+
+ul {
+	position: right;
+	margin: 0;
+	padding: 1em;
+	color: #ffffff;
+	font: bold Arial, sans-serif;
+}
+/****header****/
+header {
+	background: #ffffff;
+	/*border-width: 1px;*/
+	margin: 1px;/* 0 30px 0;*/
+	position: relative;
+	padding: 0;
+	height: 30px;
+}
+
+
+
+#logo {
+	float: left;
+	padding-left: 10%;
+	margin: 1%;
+}
+
+header ul {
+	padding: right;
+	list-style: none;
+	color: #665950;
+	font-weight: bold;
+}
+
+header li {
+	display: inline;
+	margin-right: 1em;
+	position: right;
+}
+
+header a {
+	text-decoration: none;
+	color: #c0c0c0;
+}
+
+header nav {
+	float: right;
+}
+
+header form {
+	float: right;
+	clear: right;
+	/*margin-top: 2em;*/
+	font-size: 0.9em;
+}
+
+header form fieldset {
+	border: 0;
+}
+
+header form legend {
+	display: none;
+}
+
+header hgroup {
+	margin-left: 1em;
+	color: navy;
+	font-style: italic;
+}
+
+header h1 {
+	font-size: 1.5em;
+	float:left;
+	padding-left:100%;
+	margin: 15%;
+	line-height: 1.2em;
+}
+
+header h2 {
+	font-size: 1.4em;
+	margin: 0.4em 0;
+	line-height: 1.2em;
+}
+
+header h3 {
+	font-size: 1.1em;
+	margin: 0.2em 0;
+	line-height: 1.2em;
+}
+
+/****container class****/
+.container {
+	width: 100%;
+	min-width: 800px;
+	/*font color= #000000;*/
+	margin-bottom: 5%;
+}
+
+#inhoud {
+	background-color: #F2F8F9;
+}
+
+.container h1 {
+	color: gray;
+	float: left;
+	padding-left: 100%;
+	margin: 1%;
+}
+
+/****aside, kolommen****/
+/****aside, kolommen****/
+aside, .kol {
+	/*float: left;*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	/*width: 33%;*/
+	margin-right: 0.5%;
+	padding: 4px;
+	border: 2px solid #E4F0F3;
+}
+
+.loginclass{
+	background: #7ea107;
+	color: #ffffff;
+	height: 30px;
+	position: relative;
+	width: 100%;
+	min-width: 800px;
+	/*font color= #000000;*/
+	margin-bottom: 1%;
+}
+
+
+/*.kol:last-child {
+	margin-right: 0;
+}*/
+
+.een {
+	float: left;
+	width: 180px;
+}
+
+.twee {
+	margin: 0 246px 0 186px;
+}
+
+.drie {
+	float: right;
+	width: 220px;
+}
+
+/****footer****/
+footer {
+	clear: both;
+	padding: 1em 3em 0;
+	border-top: 1px solid silver;
+	text-align: center;
+}
+
+footer ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #808080;
+}
+
+footer li {
+	display: inline;
+	color: #000000;
+	/*margin: 0 1em;*/
+}
+
+footer p {
+	font-size: smaller;
+}
+
+hoofdmenu{
+	color: #c0c0c0;
+	margin-up: 5%;
+	position: right;
+	font-weight: bold;	
+}
+
+#lijst{
+	float: left;
+	padding-left: 10%;
+	margin: 1%;
+}
+
+titelontw{
+	float: left;
+	margin:10%;
+}
+knopeigenschappen{
+	background: #8FB209;
+}
+/*
+div, aside, header, footer {
+	outline: 1px dashed red;
+}*/
+
+/*clearfix hack*/
+.clearFix:before, .clearFix:after {
+	content: " ";
+	display: table;
+}
+
+.clearFix:after {
+	clear: both;
+}
+/* enkel voor IE6/7 */
+.clearFix {
+	*zoom: 1;
+}
+
+input[type="submit"]{
+	background: #8FB209;
+}
+
+div.hr {
+	background: #c0c0c0;
+	width: 105%;
+	height: .05em;
+	margin-bottom: 5%;
+}
+
+div.hr hr  {
+	display: none;
+}
+
+#photoDeveloper {
+	float: right;
+	padding-right: 20%;
+	margin: 1%;
+	/*posistion: right;*/
+}
+
+
